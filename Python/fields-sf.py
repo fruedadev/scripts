@@ -74,11 +74,11 @@ queries = [];
 
 # Do login
 
-user = 'fjrueda@west.com.qatest'
+user = 'myuser'
 #user = input('User: ')
-password = 'SLSFRC2019sptmbr'
+password = 'mypassword'
 #password = getpass()
-token = 'IWsUC5iuU2EX54yg8Yhgdm8AE'
+token = 'mytoken'
 #token = getpass('Token: ')
 
 sf = Salesforce(username=user, password=password, security_token=token, domain='test')

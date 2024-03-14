@@ -12,9 +12,9 @@ Set QCConnection = CreateObject("TDApiOle80.TDConnection")
 Dim sUserName, sPassword
 
 'Specify Username or Enable the Input BOX
-sUserName = "ririgoye"
+sUserName = "myuser"
 'Specify the Password or Enable the Input Box which will Pop-Up when u run this file. 
-sPassword = "ririgoye"
+sPassword = "mypassword"
 
 'sQCUrl = "Enter QC link"
 'sQCUrl = sQCUrl &(chr(13) & chr(10)) 

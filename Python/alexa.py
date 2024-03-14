@@ -17,8 +17,8 @@ class AlexaPage:
     def doLogin(self) -> None:
         """ Do the login """
 
-        self.driver.find_element_by_id("ap_email").send_keys("frueda@protonmail.com")
-        self.driver.find_element_by_id("ap_password").send_keys("MZN101cm")
+        self.driver.find_element_by_id("ap_email").send_keys("myuser")
+        self.driver.find_element_by_id("ap_password").send_keys("mypassword")
         self.driver.find_element_by_id("signInSubmit").click()
 
         otp = input("Introduzca el código OTP: ")

@@ -59,7 +59,7 @@ sub getParameters {
     my ($user, $passwd, $path, $field, $value, $expr);
 
     $user = 'frueda';#prompt("User: ");
-	 $passwd = 'HPLM101cm';#prompt("Password: ", -e => '*');
+	 $passwd = '';#prompt("Password: ", -e => '*');
 	 $path = 'Owner\\Owner - Navigation';#prompt("Path: ");
 	 $expr = '';#prompt("Expression: ");
 	 $field = 'Designer';#prompt("Field [Designer]: ", -d => 'Designer');

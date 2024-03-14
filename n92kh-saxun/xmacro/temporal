@@ -1,8 +1,0 @@
-KeyStrPress Alt_L
-KeyStrPress i
-KeyStrRelease i
-KeyStrRelease Alt_L
-KeyStrPress g
-KeyStrRelease g
-KeyStrPress Return
-KeyStrRelease Return

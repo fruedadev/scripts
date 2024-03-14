@@ -1,7 +1,0 @@
-LOAD DATA
-INTO TABLE {$schema}.{$tabla}
-APPEND
-FIELDS TERMINATED BY "{$separador}" TRAILING NULLCOLS
-(
-  { ajusta(2, ', ', cadenaColumnas($tabla, $formato), 1) }
-)
